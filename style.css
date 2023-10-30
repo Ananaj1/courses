@@ -273,6 +273,18 @@
   letter-spacing: -0.64px;
   }
   
+  .textEnd1{
+    color: var(--415283, #415283);
+
+    /* Des/Global/H2-32.34 */
+    font-family: IBM Plex Serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 106.25% */
+    letter-spacing: -0.64px;
+  }
+
   .end{
     display: flex;
   }
@@ -374,10 +386,9 @@
 @media screen and (max-width: 767px) {
   .allContent{
     display: flex;
-    margin-right: 15px;
-    margin-left: 13px;
     
- 
+    margin-left: 13px;
+    align-items: center;
     flex-direction: column;
     height: 6203px;
     width: 375px;
@@ -529,48 +540,32 @@ margin-top: 40px;
     margin-top: 10px;
   }
 
-  .endContent{
-    display: flex;
-    margin-top: 80px;
-    width: 1320px;
-    height: 423px;
-    flex-direction: column;
-    align-self: start;
-    flex-direction: column;
-  }
-  
-  .Heading{
-    width: 1320px;
-    height: 34px;
-  }
-  
-  .textEnd{
-    align-self: start;
-    color: var(--415283, #415283);
-  /* Des/Global/H2-32.34 */
-  font-family: IBM Plex Serif;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 34px; /* 106.25% */
-  letter-spacing: -0.64px;
-  }
+    .endContent{
+      margin-top: 64px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .textBottomImage{
+      display: flex;
+      flex-direction: column;
+    }
 
   .textEnd1{
     color: var(--415283, #415283);
-    /* Des/Global/H2-32.34 */
-    font-family: IBM Plex Serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 34px; /* 106.25% */
-    letter-spacing: -0.64px;
+/* Des/Global/H2-32.34 */
+font-family: IBM Plex Serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 106.25% */
+letter-spacing: -0.64px;
+margin-bottom: 32px;
   }
-  
+
   .end{
     display: flex;
     flex-direction: column;
-    margin-top: 32px;
   }
   
   .imageBlock{
@@ -579,6 +574,7 @@ margin-top: 40px;
     width: 312px;
     align-items: flex-start;
     margin-right: 24px;
+    
   }
   
   .textAndImage{
@@ -598,7 +594,7 @@ margin-top: 40px;
   gap: 12px;
   margin-right: 24px;
   display: flex;
-  flex-direction:column ;
+ 
   }
   .textBottom{
     width: 280px;
@@ -663,4 +659,8 @@ margin-top: 40px;
     flex-direction: row;
     width: 100%
   }
-  }
+  
+  
+
+
+}
